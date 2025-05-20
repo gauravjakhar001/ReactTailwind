@@ -14,7 +14,7 @@ const App = () => {
            <nav className='flex flex-row justify-between bg-black text-white py-4 px-6 items-center fixed top-0 left-0 w-full z-50'>
         <div className='flex flex-row items-center gap-4'>
           <div>
-            <img className='w-16 h-16' src="./image.png"/></div> 
+            <img className='w-20 h-16' src="https://static.vecteezy.com/system/resources/previews/012/762/245/non_2x/pv-initial-letter-gold-calligraphic-feminine-floral-hand-drawn-heraldic-monogram-antique-vintage-style-luxury-logo-design-premium-vector.jpg"/></div> 
          <div className="flex flex-col">
            <h3 className='text-amber-500 text-2xl font-semibold'>Pawan Verma</h3>
           <p className='text-sm'>Author | Speaker | Management Consultant</p>
@@ -55,7 +55,7 @@ const App = () => {
       <section className='flex flex-row ml-22  w-full'>
         {/* left section */}
         <div className='flex flex-col mt-60  w-2/5 p-4'>
-            <div><img className='w-full h-auto rounded-2xl' src="./pawanverma.png"/></div>
+            <div><img className='w-full h-auto rounded-2xl' src="https://content.jdmagicbox.com/v2/comp/delhi/n5/011pxx11.xx11.190322164515.l4n5/catalogue/pawan-verma-and-associates-defence-colony-delhi-lawyers-0rosxkq91a.jpg?fit=around%7C350:350&crop=350:350;*,*"/></div>
             <div className="mt-4">
               <p className='text-xl font-semibold'>Author , Thought Leader , Professional Speaker , and Management <br /> Consultant </p>
             <p className='text-sm text-gray-600 mt-2'>Empowering organizations and leaders to achieve extraordinary results horugh visionary leadership and strategic transformation.</p>
@@ -102,7 +102,7 @@ const App = () => {
 
               {/* Book Card */}
               <div className="bg-white rounded-lg shadow-lg p-6 flex items-center w-3/4">
-                <img className="w-40 h-auto rounded-md mr-6" src="./no.png" alt="Friction Book Cover"/>
+                <img className="w-40 h-auto rounded-md mr-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjVxtulsDovLLXdzLbSEtJVrp828MwSENJxA&s" alt="Friction Book Cover"/>
                 <div className="text-left flex-grow">
                   <h4 className="text-xl font-bold text-gray-800">No Closure No Forgiveness</h4>
                   <div className="text-amber-500 text-sm mt-1">★★★★★</div> {/* Placeholder rating */}
@@ -135,7 +135,7 @@ const App = () => {
 
               {/* Book Card */}
               <div className="bg-white rounded-lg shadow-lg p-6 flex items-center w-3/4">
-                <img className="w-40 h-auto rounded-md mr-6" src="./tenx.png" alt="Non-Friction Book Cover"/>
+                <img className="w-40 h-auto rounded-md mr-6" src="https://m.media-amazon.com/images/I/71JRmQguz9L._UF1000,1000_QL80_.jpg" alt="Non-Friction Book Cover"/>
                 <div className="text-left flex-grow">
                   <h4 className="text-xl font-bold text-gray-800">The 10X Leader</h4>
                   <div className="text-amber-500 text-sm mt-1">★★★★★</div> {/* Placeholder rating */}
@@ -190,31 +190,31 @@ const App = () => {
               <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
                 {/* Non-Fiction Books */}
                 <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="sold.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/8132UG9kjNL._UF1000,1000_QL80_.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./acne.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/81QGhzp8G2L._UF1000,1000_QL80_.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./anti.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/51dQ1Xuxg1L.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./no.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/71UidDXpvLL._UF1000,1000_QL80_.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./unbroken.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/51dQ1Xuxg1L.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./tenx.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://www.jaicobooks.com/wp-content/uploads/2024/07/J-3221_The10xLeader.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./age.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/611pfFtWjlL.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
 
@@ -224,31 +224,31 @@ const App = () => {
               <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
                  {/* Romance Books */}
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./hit.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1682152178i/125148989.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./desire.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/615qVEVez3L.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./passion.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/819cKUW5FsL._UF1000,1000_QL80_.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./innocence.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/71wZ7d1qIcL._AC_UF1000,1000_QL80_.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./billionaire.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/61TD5HKqhwL.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./street.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://m.media-amazon.com/images/I/81rZYpBTqXL._UF1000,1000_QL80_.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./bad.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1700425061i/202408445.jpg" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
               </div>
@@ -257,7 +257,7 @@ const App = () => {
               <div className="grid grid-cols-2 md:grid-cols-6 gap-6">
                  {/* Paranormal Books */}
                  <div className="flex flex-col items-center">
-                  <img className="w-auto h-60 rounded-md shadow-md" src="./promise.png" alt="Book Cover"/>
+                  <img className="w-auto h-60 rounded-md shadow-md" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXAHp04UvqCGYJP2Bc1Wm3yur_AfQn8vr0ZA&s" alt="Book Cover"/>
                   <button className="mt-4 bg-amber-500 text-white py-2 px-4 rounded-md text-sm hover:bg-amber-600 transition duration-300">Buy on Amazon</button>
                 </div>
               </div>
@@ -275,7 +275,7 @@ const App = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {/* Book 1: The 10X Leader */}
             <div className="flex flex-col items-center text-center">
-              <img className="w-48 h-auto rounded-md shadow-md" src="./tenx.png" alt="The 10X Leader Cover"/>
+              <img className="w-48 h-auto rounded-md shadow-md" src="https://m.media-amazon.com/images/I/71JRmQguz9L._UF1000,1000_QL80_.jpg" alt="The 10X Leader Cover"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">The 10X Leader</h4>
               <p className="text-gray-700 text-sm">Breaking the Rules of Conventional Leadership</p>
               <p className="text-gray-500 text-xs mt-1">by Pawan Verma</p>
@@ -286,7 +286,7 @@ const App = () => {
 
             {/* Book 2: Age of the Imperfect Leader */}
             <div className="flex flex-col items-center text-center">
-              <img className="w-48 h-auto rounded-md shadow-md" src="./age.png" alt="Age of the Imperfect Leader Cover"/>
+              <img className="w-48 h-auto rounded-md shadow-md" src="https://m.media-amazon.com/images/I/611pfFtWjlL.jpg" alt="Age of the Imperfect Leader Cover"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Age of the Imperfect Leader</h4>
               <p className="text-gray-700 text-sm">Leading from the Heart</p>
               <p className="text-gray-500 text-xs mt-1">by Pawan Verma</p>
@@ -297,7 +297,7 @@ const App = () => {
 
             {/* Book 3: Unbroken */}
             <div className="flex flex-col items-center text-center">
-              <img className="w-48 h-auto rounded-md shadow-md" src="./unbroken.png" alt="Unbroken Cover"/>
+              <img className="w-48 h-auto rounded-md shadow-md" src="https://m.media-amazon.com/images/I/51dQ1Xuxg1L.jpg" alt="Unbroken Cover"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Unbroken</h4>
               <p className="text-gray-700 text-sm">A Journey of Resilience and Redemption</p>
               <p className="text-gray-500 text-xs mt-1">by Pawan Verma</p>
@@ -308,7 +308,7 @@ const App = () => {
 
             {/* Book 4: No Closure No Forgiveness */}
             <div className="flex flex-col items-center text-center">
-              <img className="w-48 h-auto rounded-md shadow-md" src="./no.png" alt="No Closure No Forgiveness Cover"/>
+              <img className="w-48 h-auto rounded-md shadow-md" src="https://m.media-amazon.com/images/I/71UidDXpvLL._UF1000,1000_QL80_.jpg" alt="No Closure No Forgiveness Cover"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">No Closure No Forgiveness</h4>
               <p className="text-gray-700 text-sm">A Gripping Psychological Thriller</p>
               <p className="text-gray-500 text-xs mt-1">by Pawan Verma</p>
@@ -329,7 +329,7 @@ const App = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Event 1: The 10X Leader Book Launch */}
             <div className="flex flex-col items-center text-center bg-gray-100 rounded-lg shadow-md p-4">
-              <img className="w-full h-auto rounded-md shadow-md" src="./ptenx.png" alt="The 10X Leader Book Launch"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/3e44761c-2471-44ed-bb2b-b0ba4c4f579e.__CR0,0,970,600_PT0_SX970_V1___.jpg" alt="The 10X Leader Book Launch"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">The 10X Leader Book Launch</h4>
               <p className="text-gray-700 text-sm mt-2">An exclusive event at the Grand Hyatt featuring industry leaders and management professionals discussing the principles of 10X leadership.</p>
               <p className="text-gray-500 text-xs mt-3 flex items-center"><span className="mr-1"> <FaRegCalendarAlt/> </span> May 15, 2025</p>
@@ -337,7 +337,7 @@ const App = () => {
 
             {/* Event 2: Leadership Masterclass */}
             <div className="flex flex-col items-center text-center bg-gray-100 rounded-lg shadow-md p-4">
-              <img className="w-full h-auto rounded-md shadow-md" src="./event.png" alt="Leadership Masterclass"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/OMC/leadershipMAIN-20170712083242876.jpg" alt="Leadership Masterclass"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Leadership Masterclass</h4>
               <p className="text-gray-700 text-sm mt-2">A full-day workshop for executives and aspiring leaders on implementing the 10X leadership principles in their organizations.</p>
               <p className="text-gray-500 text-xs mt-3 flex items-center"><span className="mr-1"> <FaRegCalendarAlt/> </span> June 22, 2025</p>
@@ -345,7 +345,7 @@ const App = () => {
 
             {/* Event 3: International Literary Festival */}
             <div className="flex flex-col items-center text-center bg-gray-100 rounded-lg shadow-md p-4">
-              <img className="w-full h-auto rounded-md shadow-md" src="./auth.png" alt="International Literary Festival"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://publishingperspectives.com/wp-content/uploads/2021/09/710-Reykjavik-THIS-ONE-festival-audience-ftw.jpg" alt="International Literary Festival"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">International Literary Festival</h4>
               <p className="text-gray-700 text-sm mt-2">Join Dr. Verma at the prestigious International Literary Festival where he will discuss his journey from finance to fiction writing.</p>
                <p className="text-gray-500 text-xs mt-3 flex items-center"><span className="mr-1"> <FaRegCalendarAlt/> </span> July 8-10, 2025</p>
@@ -364,19 +364,19 @@ const App = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {/* Card 1 */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
-              <img className="w-full h-auto rounded-md shadow-md" src="./speak1.png" alt="Speaker image 1"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://media.istockphoto.com/id/499517325/photo/a-man-speaking-at-a-business-conference.jpg?s=612x612&w=0&k=20&c=gWTTDs_Hl6AEGOunoQ2LsjrcTJkknf9G8BGqsywyEtE=" alt="Speaker image 1"/>
               <p className="text-gray-700 text-sm mt-4">An expert is typically an individual whose knowledge and experience are deeply rooted within a specific industry or field.</p>
             </div>
 
             {/* Card 2 */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
-              <img className="w-full h-auto rounded-md shadow-md" src="./speaker-2.png" alt="Speaker image 2"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://c8.alamy.com/comp/2PTMRF0/business-and-entrepreneurship-symposium-female-speaker-giving-a-talk-at-business-meeting-audience-in-conference-hall-rear-view-of-unrecognized-participant-in-audience-2PTMRF0.jpg" alt="Speaker image 2"/>
               <p className="text-gray-700 text-sm mt-4">The core task of a professional speaker is to deliver speeches or presentations at various events, such as conferences, seminars, corporate meetings, or special occasions.</p>
             </div>
 
             {/* Card 3 */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
-              <img className="w-full h-auto rounded-md shadow-md" src="./speaker-3.png" alt="Speaker image 3"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://as2.ftcdn.net/jpg/02/92/67/21/1000_F_292672190_0xt0zCuAXJGysTLZuEE9UZwWLNoFBEZ2.jpg" alt="Speaker image 3"/>
               <p className="text-gray-700 text-sm mt-4">One of the main benefits of working with a professional speaker is that they spend a significant amount of time researching and crafting their speeches.</p>
             </div>
           </div>
@@ -391,7 +391,7 @@ const App = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             {/* Card 1 */}
             <div className="flex flex-col items-center text-center bg-gray-100 rounded-lg shadow-md p-6">
-              <img className="w-full h-auto rounded-md shadow-md" src="./consultant-1.png" alt="Consultant image 1"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/How_to_Become_a_Management_Consultant.jpg" alt="Consultant image 1"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Strategic Leadership</h4>
               <p className="text-gray-700 text-sm mt-2">Developing leadership capabilities and strategic thinking at all levels of your organization to drive sustainable growth.</p>
               <a href="#" className="text-amber-500 text-sm mt-4 hover:underline flex items-center">Learn more <span className="ml-1">→</span></a>
@@ -399,7 +399,7 @@ const App = () => {
 
             {/* Card 2 */}
             <div className="flex flex-col items-center text-center bg-gray-100 rounded-lg shadow-md p-6">
-              <img className="w-full h-auto rounded-md shadow-md" src="./consultant-2.png" alt="Consultant image 2"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://www.businessbecause.com/uploads/default/news/images/bcd6fe35b1322d80dce526af93cf4457dc097bf4.png" alt="Consultant image 2"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Organizational Transformation</h4>
               <p className="text-gray-700 text-sm mt-2">Guiding organizations through complex change initiatives with a focus on culture, structure, and leadership alignment.</p>
               <a href="#" className="text-amber-500 text-sm mt-4 hover:underline flex items-center">Learn more <span className="ml-1">→</span></a>
@@ -407,7 +407,7 @@ const App = () => {
 
             {/* Card 3 */}
             <div className="flex flex-col items-center text-center bg-gray-100 rounded-lg shadow-md p-6">
-              <img className="w-full h-auto rounded-md shadow-md" src="./consultant-3.png" alt="Consultant image 3"/>
+              <img className="w-full h-auto rounded-md shadow-md" src="https://www.humanresourcesmba.net/wp-content/uploads/2021/09/management-consultant.jpg" alt="Consultant image 3"/>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Innovation & Growth</h4>
               <p className="text-gray-700 text-sm mt-2">Building innovation capabilities and growth strategies for businesses looking to expand or enter new markets.</p>
               <a href="#" className="text-amber-500 text-sm mt-4 hover:underline flex items-center">Learn more <span className="ml-1">→</span></a>
@@ -431,7 +431,7 @@ const App = () => {
 
             {/* Right Image */}
             <div className="md:w-1/2">
-              <img className="w-full h-auto rounded-lg shadow-md" src="./ready.png" alt="Ready to Transform Your Organization"/>
+              <img className="w-full h-auto rounded-lg shadow-md" src="https://s29814.pcdn.co/wp-content/uploads/2022/11/Shutterstock_2074606618.png" alt="Ready to Transform Your Organization"/>
             </div>
           </div>
         </section>
@@ -445,7 +445,7 @@ const App = () => {
             {/* Award Card 1: Leadership Excellence Award */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
               <div className="w-32 h-32 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-                <img className="w-20 h-20" src="./trophy.png" alt="Leadership Excellence Award"/>
+                <img className="w-20 h-20" src="https://images.jdmagicbox.com/quickquotes/images_main/-dmvmrdvl.jpg" alt="Leadership Excellence Award"/>
               </div>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Leadership Excellence <br /> Award</h4>
               <p className="text-gray-600 text-sm mt-2">Financial Services Forum, 2024</p>
@@ -457,7 +457,7 @@ const App = () => {
             {/* Award Card 2: Best Business Author */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
               <div className="w-32 h-32 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-                 <img className="w-20 h-20" src="./best.png" alt="Best Business Author"/>
+                 <img className="w-20 h-20" src="https://5.imimg.com/data5/RU/UJ/MY-17868609/school-gold-medal.jpg" alt="Best Business Author"/>
               </div>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Best Business Author</h4>
               <p className="text-gray-600 text-sm mt-2">India Authors Award, 2023</p>
@@ -469,7 +469,7 @@ const App = () => {
             {/* Award Card 3: Distinguished Speaker */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
               <div className="w-32 h-32 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-                 <img className="w-20 h-20" src="./award-speaker.png" alt="Distinguished Speaker"/>
+                 <img className="w-20 h-20" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiAE9oFvEuRDZKmO7tmIxpmcSvg5k3s5WtPA&s" alt="Distinguished Speaker"/>
               </div>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Distinguished Speaker</h4>
               <p className="text-gray-600 text-sm mt-2">Global Leadership Summit, <br /> 2022</p>
@@ -481,7 +481,7 @@ const App = () => {
             {/* Award Card 4: Lifetime Achievement */}
             <div className="flex flex-col items-center text-center bg-white rounded-lg shadow-md p-6">
               <div className="w-32 h-32 rounded-full bg-gray-200 flex items-center justify-center mb-4">
-                 <img className="w-20 h-20" src="./lifetime.png" alt="Lifetime Achievement"/>
+                 <img className="w-20 h-20" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGdZp4P4SJlzs73-qwz3lpgOLAdjykWKZ_cw&s" alt="Lifetime Achievement"/>
               </div>
               <h4 className="text-lg font-bold text-gray-800 mt-4">Lifetime Achievement</h4>
               <p className="text-gray-600 text-sm mt-2">Financial Services Association, <br /> 2021</p>
@@ -612,7 +612,7 @@ const App = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Column 1: Logo and Description */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <img className="w-16 h-auto mb-4" src="./image.png" alt="Pawan Verma Logo"/> {/* Placeholder logo */}
+            <img className="w-16 h-auto mb-4" src="https://static.vecteezy.com/system/resources/previews/012/762/245/non_2x/pv-initial-letter-gold-calligraphic-feminine-floral-hand-drawn-heraldic-monogram-antique-vintage-style-luxury-logo-design-premium-vector.jpg" alt="Pawan Verma Logo"/> {/* Placeholder logo */}
             <p className="text-gray-400 text-sm mb-4">Author, speaker, and consultant helping individuals and organizations tell their stories with impact.</p>
             {/* Social Media Icons in Footer (as per image) */}
             <div className="flex space-x-4">
